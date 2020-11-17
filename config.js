@@ -1,24 +1,23 @@
 module.exports = {
   pathPrefix: '/greatest-gatsby-academic-template',
-  siteUrl: 'https://tc-imba.github.io',
-  siteTitle: 'John Doe',
-  siteDescription: 'Logbook of John Doe',
-  author: 'John Doe',
+  siteUrl: 'https://xhfu.me',
+  siteTitle: 'Xiaohan Fu',
+  siteDescription: 'Homepage of Xiaohan Fu',
+  author: 'Xiaohan Fu',
   authorAlternative: '符晓浛',
   introduction: [
-    "[fxhsb](https://github.com/Reapor-Yurnero) Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+    'I\'m currently a master student in Computer Science Department at University of Carlifornia San Diego ([UCSD](https://cse.ucsd.edu/)). I\'m a graduate student researcher at [MESL](http://mesl.ucsd.edu/) supervised by [Rajesh K. Gupta](http://mesl.ucsd.edu/gupta/) working on smart-building operating system development. I obtained my bachelor degree in Electrical and Computer Engineering from University of Michigan-Shanghai Jiaotong University Joint Institute ([UM-SJTU JI](https://www.ji.sjtu.edu.cn/)).',
+    'My research interest spans widely, including smart building (IoT), operating system, security and privacy, and cryptography. I believe in the context of the future IoT world, a stable and solid operating system to bridge the "pervasive" smart device/sensor network and normal users, researchers and policy designers on top of them will be a vital need for productivity and efficiency.  However, it must be noted that security and privacy around this giant operating system will be of more importance than ever because attackers may have the possibility to perform physical attacks to people through smart devices directly and monitor real-time daily info of anyone from every single corner of life. Cryptography techniques like FHE, ZPK should be involved in this operating system to play a vital role as a solid shield to protect people from the above horrible potential attacks/breaches. My ultimate goal is to develop such an operating system.',
   ],
   avatar: 'avatar.png',
   professions: [
-    'Software Engineer',
-    'Full Stack Developer',
+    'Master Student',
   ],
   tocMaxDepth: 2,
   excerptMaxLength: 500,
-  // birthday: 'Some day',
-  location: 'Earth',
-  email: 'john.doe@gmail.com',
+  // birthday: '1949.10.1',
+  location: 'San Diego, US',
+  email: 'x5fu@ucsd.edu',
   postsForArchivePage: 3,
   defaultLanguage: 'en',
   disqusScript: process.env.DISQUS_SCRIPT
@@ -32,7 +31,7 @@ module.exports = {
     research: 'research',
   },
   social: {
-    github: 'https://github.com/',
+    github: 'https://github.com/reapor-yurnero',
     // facebook: 'https://www.facebook.com/rolwin.monteiro',
     // twitter: 'https://twitter.com/rolwin100',
     // instagram: 'https://www.instagram.com/reevan100/',
@@ -47,34 +46,32 @@ module.exports = {
   },
   contactFormUrl: process.env.CONTACT_FORM_ENDPOINT
     || 'https://getform.io/f/09a3066f-c638-40db-ad59-05e4ed71e451',
-  googleAnalyticTrackingId: process.env.GA_TRACKING_ID || '',
+  googleAnalyticTrackingId: process.env.GA_TRACKING_ID || 'G-GG4M2NM9JM',
   education: [
     {
-      date: 'Jan 2020 - Present',
+      date: 'Sep 2019 - Present',
       icon: 'graduation-cap',
-      title: 'Ph.D in Computer Science',
-      location: 'Some University, Somewhere',
+      title: 'Master Student in Computer Science',
+      location: 'University of California, San Diego (UCSD)',
     }, {
       date: 'Sept 2015 - Aug 2019',
       icon: 'university',
-      title: 'B.S.E. in Electrical and Computer Engineering',
-      location: 'Some University, Somewhere',
-    }, {
-      date: 'Sept 2008 - June 2015',
-      icon: 'school',
-      title: 'Middle School',
-      location: 'Some Middle School, Somewhere',
+      title: 'Bachelor in Electrical and Computer Engineering',
+      location: 'University of Michigan-Shanghai Jiaotong University Joint Institute (UM-SJTU JI)',
     }],
   interests: [
     {
-      icon: 'cubes',
-      title: 'Distributed Systems',
-    }, {
-      icon: 'layer-group',
-      title: 'Full Stack Development',
-    }, {
       icon: ['fab', 'linux'],
-      title: 'Open Source Community',
+      title: 'Operating Systems',
+    }, {
+      icon: 'user-secret',
+      title: 'Secure & Privacy',
+    }, {
+      icon: 'key',
+      title: 'Cryptography',
+    }, {
+      icon: 'city',
+      title: 'IoT / Smart Buildings',
     }],
   experience: [
     {
@@ -82,10 +79,10 @@ module.exports = {
       position: 'left',
       data: [
         {
-          date: 'Aug 2019 - Present',
-          title: 'Software Engineer',
-          location: 'Somewhere',
-          description: 'description',
+          date: 'Mar 2017 - Sep 2017',
+          title: 'Software Design Engineer Intern at Apple',
+          location: 'Shanghai, China',
+          description: 'Worked in HWTE team for Macbook and iWatch. Piloted in the transition from old fixture framework to new one.',
         },
       ],
     }, {
@@ -93,25 +90,35 @@ module.exports = {
       position: 'right',
       data: [
         {
-          date: 'Aug 2019',
-          title: 'Teaching Assistant of XXX',
-          location: 'Somewhere',
+          date: 'Apr 2020 - Jun 2020',
+          title: 'Teaching Assistant of [CSE127 Computer Security](https://cseweb.ucsd.edu/classes/sp20/cse127-a/index.html) (undergrad upper level)',
+          location: 'UCSD',
+          description: 'Worked with Prof. [Stefan Savage](http://cseweb.ucsd.edu/~savage/) remotely. Modified the testcases and autograder script for one programming assignment.',
         }, {
-          date: 'Aug 2018',
-          title: 'Teaching Assistant of XXX',
-          location: 'Somewhere',
+          date: 'May 2019 - Aug 2019',
+          title: 'Teaching Assistant of [VE280 Programming & Elementary Data Structures](https://www.ji.sjtu.edu.cn/academics/courses/courses-by-number/course-info/?id=246) (undergrad)',
+          location: 'Shanghai Jiao Tong University',
+          description: 'Worked with Prof. [Weikang Qian](http://umji.sjtu.edu.cn/~wkqian/people/weikang-qian.html) and Prof. [Paul Weng](https://weng.fr/). Designed testcases for a new project (game Quarto).',
         }, {
-          date: 'Aug 2017',
-          title: 'Teaching Assistant of XXX',
-          location: 'Somewhere',
+          date: 'Sep 2018 - Dec 2018',
+          title: 'Teaching Assistant of [VE477 Intro to Algorithms](https://www.ji.sjtu.edu.cn/academics/courses/courses-by-number/course-info/?id=442) (undergrad upper level) *Concurrent with VE370*',
+          location: 'Shanghai Jiao Tong University',
+          description: 'Worked with Prof. [Manuel Charlemagne](https://www.ji.sjtu.edu.cn/about/faculty-staff/faculty-directory/faculty-detail/76/). Introduced gomoku AI competition to this course as a bonus challenge and undertook more sophisticated anti-plagarism policy with [turnitin](https://www.turnitin.com/) and [moss](https://theory.stanford.edu/~aiken/moss/).',
         }, {
-          date: 'Aug 2018',
-          title: 'Teaching Assistant of XXX',
-          location: 'Somewhere',
+          date: 'Sep 2018 - Dec 2018',
+          title: 'Teaching Assistant of [VE370 Computer Organizations](https://www.ji.sjtu.edu.cn/academics/courses/courses-by-number/course-info/?id=393) (undergrad upper level) *Concurrent with VE477*',
+          location: 'Shanghai Jiao Tong University',
+          description: 'Worked with Prof. [Gang Zhen](https://www.ji.sjtu.edu.cn/about/faculty-staff/faculty-directory/faculty-detail/154/). Proposed a more effective peer evaluation policy to ensure fairness which was later promoted to whole institute.',
         }, {
-          date: 'Aug 2017',
-          title: 'Teaching Assistant of XXX',
-          location: 'Somewhere',
+          date: 'Sep 2017 - Dec 2017',
+          title: 'Teaching Assistant of [VG101 Intro to Programming](https://www.ji.sjtu.edu.cn/academics/courses/courses-by-number/course-info/?id=74) (undergrad)',
+          location: 'Shanghai Jiao Tong University',
+          description: 'Worked with Prof. [Manuel Charlemagne](https://www.ji.sjtu.edu.cn/about/faculty-staff/faculty-directory/faculty-detail/76/). Reformed grading scheme to focus more on team projects than individual assignments. Designed one new programming project, exam questions and wrote plenty tutorial documents.',
+        }, {
+          date: 'May 2017 - Aug 2017',
+          title: 'Teaching Assistant of [VG100 Intro to Engineering](https://www.ji.sjtu.edu.cn/academics/courses/courses-by-number/course-info/?id=73) (undergrad)',
+          location: 'Shanghai Jiao Tong University',
+          description: 'Worked with Prof. [Yu Zheng](https://www.linkedin.com/in/yu-zheng-2392292a/). Designed a new project named "puzzle pathfinder" and manufactured the game court with acrylic boards. This project along with the court were reused in later offerings.',
         },
       ],
     }, {
@@ -119,17 +126,30 @@ module.exports = {
       position: 'left',
       data: [
         {
-          date: 'Aug 2019',
-          title: '[fxh](https://github.com/Reapor-Yurnero) home visit third time',
-          location: 'Somewhere',
+          date: 'Dec 2016 - Jan 2017',
+          title: 'Volunteer Teacher at [Sanhe Junior School](https://map.baidu.com/poi/%E4%B8%89%E6%B2%B3%E5%88%9D%E7%BA%A7%E4%B8%AD%E5%AD%A6/@11548194.64205,2820438.08482,19z?uid=691305230c149d09725e804f&ugc_type=3&ugc_ver=1&device_ratio=2&compat=1&querytype=detailConInfo&da_src=shareurl)',
+          location: 'Sanhe, Yunnan, China',
+          description: 'Sanhe Junior School is located in Honghe County, one of the poorest rural area in Yunnan. I was the math and class teacher of a grade 8 class of 40 local students.',
+        },
+      ],
+    }, {
+      title: 'Service',
+      position: 'left',
+      data: [
+        {
+          date: 'Sep 2020 - Present',
+          title: 'USENIX Security \'21 [Artifact Evaluation Committee](https://www.usenix.org/conference/usenixsecurity21/call-for-artifacts)',
+          location: 'Online',
         }, {
-          date: 'Aug 2018',
-          title: '[fxh](https://github.com/Reapor-Yurnero) home visit second time',
-          location: 'Somewhere',
+          date: 'Sep 2017 - Aug 2019',
+          title: 'President of SSTIA at UM-SJTU JI',
+          location: 'Shanghai Jiao Tong University',
+          description: 'SSTIA stands for Student Science and Technology Innovative Association. Together with my colleages, we organized the 9th SJTU Freshman Robotic Contest with nearly 400 participants from various departments of SJTU and more than 300 audience for such a competition lasting 2 months',
         }, {
-          date: 'Aug 2017',
-          title: '[fxh](https://github.com/Reapor-Yurnero) home visit\n\n111',
-          location: 'Somewhere',
+          date: 'Sep 2017 - Aug 2019',
+          title: 'Investigator of [Honor Council](https://www.ji.sjtu.edu.cn/academics/academic-integrity/honor-council/) at UM-SJTU JI',
+          location: 'Shanghai Jiao Tong University',
+          description: 'Investigated near ten cases of suspected violations of the [Honor Code](https://www.ji.sjtu.edu.cn/academics/academic-integrity/honor-code/) (Academic Integrity).',
         },
       ],
     },
