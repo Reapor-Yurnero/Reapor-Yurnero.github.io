@@ -20,7 +20,6 @@ const ResearchCard = (props) => {
     },
   } = node;
   const fluid = cover ? cover.childImageSharp.fluid : null;
-  // console.log(fluid);
 
   const url = Utils.resolvePageUrl(path);
   // const handleClick = (e) => {
