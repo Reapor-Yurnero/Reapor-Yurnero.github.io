@@ -1,5 +1,5 @@
 module.exports = {
-  pathPrefix: '/greatest-gatsby-academic-template',
+  pathPrefix: '/',
   siteUrl: 'https://xhfu.me',
   siteTitle: 'Xiaohan Fu',
   siteDescription: 'Homepage of Xiaohan Fu',
