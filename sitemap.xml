@@ -1,29 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
-<url> <loc>https://xhfu.me/greatest-gatsby-academic-template/tags/gatsby</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://xhfu.me/greatest-gatsby-academic-template/research/brick_bos</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://xhfu.me/greatest-gatsby-academic-template/research/dating</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://xhfu.me/greatest-gatsby-academic-template/research/mf_auth</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://xhfu.me/greatest-gatsby-academic-template/research/aligning_objects</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://xhfu.me/greatest-gatsby-academic-template/research/gvisor_optimization</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://xhfu.me/greatest-gatsby-academic-template/research/constant_time</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://xhfu.me/greatest-gatsby-academic-template/posts/news-note</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://xhfu.me/greatest-gatsby-academic-template/tags/Smart Building</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://xhfu.me/greatest-gatsby-academic-template/tags/Operating System</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://xhfu.me/greatest-gatsby-academic-template/tags/Cryptography</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://xhfu.me/greatest-gatsby-academic-template/tags/Security and Privacy</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://xhfu.me/greatest-gatsby-academic-template/tags/Security &amp; Privacy</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://xhfu.me/greatest-gatsby-academic-template/tags/Human-Computer Interaction</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://xhfu.me/greatest-gatsby-academic-template/tags/Virtualization</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://xhfu.me/greatest-gatsby-academic-template/tags/Open Source Contribution</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://xhfu.me/greatest-gatsby-academic-template/tags/Programming Language</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://xhfu.me/greatest-gatsby-academic-template/tags/中文CN</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://xhfu.me/greatest-gatsby-academic-template/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://xhfu.me/greatest-gatsby-academic-template/resume/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://xhfu.me/greatest-gatsby-academic-template/contact/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://xhfu.me/greatest-gatsby-academic-template/experience/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://xhfu.me/greatest-gatsby-academic-template/posts/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://xhfu.me/greatest-gatsby-academic-template/research/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://xhfu.me/greatest-gatsby-academic-template/tags/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://xhfu.me/greatest-gatsby-academic-template/wakatime/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://xhfu.me/tags/gatsby</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://xhfu.me/research/brick_bos</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://xhfu.me/research/dating</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://xhfu.me/research/mf_auth</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://xhfu.me/research/aligning_objects</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://xhfu.me/research/gvisor_optimization</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://xhfu.me/research/constant_time</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://xhfu.me/posts/news-note</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://xhfu.me/tags/Smart Building</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://xhfu.me/tags/Operating System</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://xhfu.me/tags/Cryptography</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://xhfu.me/tags/Security and Privacy</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://xhfu.me/tags/Security &amp; Privacy</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://xhfu.me/tags/Human-Computer Interaction</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://xhfu.me/tags/Virtualization</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://xhfu.me/tags/Open Source Contribution</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://xhfu.me/tags/Programming Language</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://xhfu.me/tags/中文CN</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://xhfu.me/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://xhfu.me/resume/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://xhfu.me/contact/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://xhfu.me/experience/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://xhfu.me/posts/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://xhfu.me/research/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://xhfu.me/tags/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://xhfu.me/wakatime/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 </urlset>
