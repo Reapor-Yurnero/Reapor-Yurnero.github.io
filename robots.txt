@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
-Sitemap: https://tc-imba.github.io/sitemap.xml
-Host: https://tc-imba.github.io
+Sitemap: https://xhfu.me/sitemap.xml
+Host: https://xhfu.me
