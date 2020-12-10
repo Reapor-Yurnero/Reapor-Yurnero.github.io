@@ -5,8 +5,8 @@ tags:
   - "Cryptography"
 date: Jun 2020 - Present
 # venue: DOTA2
-# authors:
-#   - "Xiaohan Fu, Jason Koh, "
+authors:
+  - name: "With Rahul Chatterjee, Varun Chandrasekaran"
 path: "research/mf_auth"
 excerpt: In our work, we deviate from the status quo and show how users can authenticate themselves using biometrics whilst. We utilize primitives from cryptography -- namely fuzzy extractors -- to ensure that there is no requirement to perform template matching (of a template stored in the clear) on trusted hardware.
 selected: true

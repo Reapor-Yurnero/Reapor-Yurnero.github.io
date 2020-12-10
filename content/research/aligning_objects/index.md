@@ -4,10 +4,10 @@ tags:
   - "Human-Computer Interaction"
 date: Jun 2018 - Sep 2018
 # venue: DOTA2
-# authors:
-#   - "Xiaohan Fu, Jason Koh, "
+authors:
+  - name: "With Peter Zelchenko, Xiangqian Li, Alex Ivanov, Zhenyu Gu"
 path: "research/aligning_objects"
-excerpt: There is a presumption in human-computer interaction that laying out menus and most other material in neat rows and columns helps users get work done. The rule has been so implicit in the field of design as to allow for no debate. However, the idea that perfect collinearity creates an advantage for both either search and or recall has rarely been tested. We conducted several experiments to test this. Note, I'm no longer on this project after Sep. 2018. The submitted paper is the latest version containing subsequent work.
+excerpt: There is a presumption in human-computer interaction that laying out menus and most other material in neat rows and columns helps users get work done. The rule has been so implicit in the field of design to allow for no debate. However, the idea that perfect collinearity creates an advantage for both either search and or recall has rarely been tested. We conducted several experiments to test this. Note, I'm no longer on this project after Sep. 2018. The submitted paper is the latest version containing subsequent work.
 selected: false
 cover: "./preview.png"
 links:

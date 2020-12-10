@@ -5,8 +5,8 @@ tags:
   - "Operating System"
 date: Oct 2019 - Present
 # venue: DOTA2
-# authors:
-#   - "Xiaohan Fu, Jason Koh, "
+authors:
+  - name: "With Jason Koh, Dezhi Hong, Francesco Fraternali, Rajesh K. Gupta."
 path: "research/brick_bos"
 excerpt: In this project, we are aiming to create a Building Operating System (BOS) providing an interface between the underlying building hardware (e.g. HVAC system, light, sensor) and users (e.g. developers, building managers, residents). With this interface, developers can create applications to make the life of building managers and residents easier.
 selected: true

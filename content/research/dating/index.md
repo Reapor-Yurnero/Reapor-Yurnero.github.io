@@ -6,7 +6,7 @@ tags:
 date: May 2019 - June 2020 (Suspended)
 # venue: DOTA2
 # authors:
-#   - "Xiaohan Fu, Jason Koh, "
+#   - "With "
 path: "research/dating"
 excerpt: Dating applications are widely adopted all over the world. However, most of them do not have a very good security and privacy guarantee. On one hand, who's confessing love to whom is not something secret to the service provider. On the other hand, if the target user B of user A refuses the request, severe embarrassment will be caused in between them. In this project, we aimed to tackle these two issues. We proposed a preliminary cryptography protocol for this and developed a WeChat MiniApp on top of this scheme. 
 selected: false
