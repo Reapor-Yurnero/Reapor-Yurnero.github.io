@@ -16,6 +16,7 @@ links:
     url: "https://dl.acm.org/doi/10.1145/3408308.3431113"
   - name: "Brick"
     url: "http://brickschema.org/"
+priority: -10
 ---
 
 ## Introduction

@@ -19,6 +19,7 @@ links:
     file: "./final_pre.pptx"
   - name: "report"
     file: "./cse291_project_final_report.pdf"
+priority: -8
 ---
 
 ## Introduction

@@ -19,6 +19,7 @@ links:
     file: "./draft.pdf"
 # - name: "draft(pdf)"
 #     url: "https://www.dota2.com/diretide/?l=english"
+priority: -6
 ---
 
 ## Introduction

@@ -11,6 +11,7 @@ path: "research/mf_auth"
 excerpt: In our work, we deviate from the status quo and show how users can authenticate themselves using biometrics whilst. We utilize primitives from cryptography -- namely fuzzy extractors -- to ensure that there is no requirement to perform template matching (of a template stored in the clear) on trusted hardware.
 selected: true
 cover: "./preview.jpeg"
+priority: -9
 # links:
 #   - name: "BuildSys20 Poster"
 #     file: "./buildsys20postersdemos-final8.pdf"
