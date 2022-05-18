@@ -6,19 +6,19 @@ module.exports = {
   author: 'Xiaohan Fu',
   authorAlternative: '符晓浛',
   introduction: [
-    'I\'m currently a master student in Computer Science Department at University of Carlifornia San Diego ([UCSD](https://cse.ucsd.edu/)). I\'m a graduate student researcher at [MESL](http://mesl.ucsd.edu/) supervised by [Rajesh K. Gupta](http://mesl.ucsd.edu/gupta/) working on smart-building operating system development. I obtained my bachelor degree in Electrical and Computer Engineering from University of Michigan-Shanghai Jiaotong University Joint Institute ([UM-SJTU JI](https://www.ji.sjtu.edu.cn/)).',
+    'I\'m a PhD student in [UCSD CSE](https://cse.ucsd.edu/) working with [Rajesh K. Gupta](http://mesl.ucsd.edu/gupta/) at [MESL](http://mesl.ucsd.edu/). I obtained my bachelor degree in Electrical and Computer Engineering from University of Michigan-Shanghai Jiaotong University Joint Institute ([UM-SJTU JI](https://www.ji.sjtu.edu.cn/)).',
     'My research interest spans widely, including smart building (IoT), operating system, security and privacy, and applied cryptography. I would like to explore the possibilities for people to embrace the utility and productivity of data-driven services and smart hardware without being worried about ubiquitous surveillance, privacy leakage, or data breaches. I also want to contribute to the mitigation of massive surveillance and privacy disruption.',
     // 'For example, in the context of the future IoT world, a stable and solid operating system to bridge the "pervasive" smart device/sensor network and normal users, researchers and policy designers on top of them will be a vital need for productivity and efficiency.  However, it must also be noted that security and privacy around this giant operating system will be of more importance than ever because attackers may have the possibility to perform attacks to people through smart devices directly and monitor real-time daily info of anyone from every single corner of life. Cryptography techniques like FHE, ZKP, MPC should be involved in this operating system to play as a solid shield to protect people from the above horrible potential attacks/breaches. I am very interested in building such a system.',
   ],
   avatar: 'avatar.png',
   professions: [
-    'Master Student',
+    'Graduate Student',
   ],
   tocMaxDepth: 2,
   excerptMaxLength: 500,
   // birthday: '1949.10.1',
   location: 'San Diego, US',
-  email: 'x5fu@ucsd.edu',
+  email: 'xhfu@ucsd.edu',
   postsForArchivePage: 3,
   defaultLanguage: 'en',
   disqusScript: process.env.DISQUS_SCRIPT
@@ -50,16 +50,24 @@ module.exports = {
   googleAnalyticTrackingId: process.env.GA_TRACKING_ID || 'G-GG4M2NM9JM',
   education: [
     {
-      date: 'Sep 2019 - Present',
+      data: 'Jul 2021 - Present',
+      icon: 'graduation-cap',
+      title: 'PhD Student in Computer Science',
+      location: 'University of California, San Diego (UCSD)',
+    },
+    {
+      date: 'Sep 2019 - Jun 2021',
       icon: 'graduation-cap',
       title: 'Master Student in Computer Science',
       location: 'University of California, San Diego (UCSD)',
-    }, {
-      date: 'Sept 2015 - Aug 2019',
+    },
+    {
+      date: 'Sep 2015 - Aug 2019',
       icon: 'university',
       title: 'Bachelor in Electrical and Computer Engineering',
       location: 'University of Michigan-Shanghai Jiaotong University Joint Institute (UM-SJTU JI)',
-    }],
+    }
+  ],
   interests: [
     {
       icon: ['fab', 'linux'],
