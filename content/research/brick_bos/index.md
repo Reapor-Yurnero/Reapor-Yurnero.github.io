@@ -6,9 +6,9 @@ tags:
 date: Oct 2019 - Present
 # venue: DOTA2
 authors:
-  - name: "With Jason Koh, Dezhi Hong, Francesco Fraternali, Rajesh K. Gupta."
+  - name: "With Jason Koh, Dezhi Hong, Rajesh K. Gupta, and Gabe Fierro."
 path: "research/brick_bos"
-excerpt: In this project, we are aiming to create a Building Operating System (BOS) providing an interface between the underlying building hardware (e.g. HVAC system, light, sensor) and users (e.g. developers, building managers, residents). With this interface, developers can create applications to make the life of building managers and residents easier.
+excerpt: In this project, we are aiming to create a Building Operating System (BOS) providing an interface between the underlying building hardware (e.g. HVAC system, light, sensor) and users (e.g. developers, building managers, residents). With this interface, developers can create applications to make the life of building managers and residents easier. Paper undersubmission to ICCPS 2024.
 selected: true
 cover: "./preview.png"
 links:
@@ -16,6 +16,10 @@ links:
     url: "https://dl.acm.org/doi/10.1145/3408308.3431113"
   - name: "Brick"
     url: "http://brickschema.org/"
+  - name: "BuildSys23 Paper (BEAR)"
+    url: "https://dl.acm.org/doi/10.1145/3600100.3623740"
+  - name: "RLEM22 Paper (B2RL)"
+    url: "https://dl.acm.org/doi/abs/10.1145/3563357.3566164"
 priority: -10
 ---
 

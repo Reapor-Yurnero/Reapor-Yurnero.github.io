@@ -10,7 +10,7 @@ date: Apr 2020 - Present
 #   - name: "WitInstructed by "
 path: "research/constant_time"
 excerpt: This project presents a toolset for assessing whether a cryptographic function is constant-time on two given (distinct)input sets. The toolset extends new support to languages other than C or C++, including Python3, Golang, and JavaScript. We present a comprehensive test suite covering common cryptographic primitives and providing finely-chosen inputs that can cause non-constant-time behavior of certain implementations. We then evaluate our approach by applying this test suite to a set of libraries with our toolset and observing the violations that are detected. Our preliminary results suggest that language runtime features such as JIT may break the constant-time requirement.
-selected: true
+selected: false
 cover: "./preview.png"
 links:
 #   - name: "BuildSys20 Poster"

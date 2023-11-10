@@ -1,13 +1,13 @@
 ---
-title: "News Notes"
+title: "A Trial on Microsoft SEAL"
 tags:
-  - "中文CN"
+  - "Cryptography"
 date: 2020-11-12
 # venue: DOTA2
 # authors:
 #   - "Xiaohan Fu, Jason Koh, "
 path: "posts/news-note"
-excerpt: Take notes for daily news and thoughts. 记点笔记。
+excerpt: An attemp on using Microsoft SEAL.
 # selected: true
 cover: "./preview.png"
 password: test

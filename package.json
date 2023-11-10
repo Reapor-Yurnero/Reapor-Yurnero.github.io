@@ -74,7 +74,8 @@
     "slash": "^3.0.0",
     "tweetnacl": "^1.0.3",
     "tweetnacl-util": "^0.15.1",
-    "typeface-jetbrains-mono": "^2.0.0"
+    "typeface-jetbrains-mono": "^2.0.0",
+    "yarn": "^1.22.19"
   },
   "devDependencies": {
     "babel-eslint": "^10.1.0",

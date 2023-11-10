@@ -6,13 +6,12 @@ module.exports = {
   author: 'Xiaohan Fu',
   authorAlternative: '符晓浛',
   introduction: [
-    'I\'m a PhD student in [UCSD CSE](https://cse.ucsd.edu/) working with [Rajesh K. Gupta](http://mesl.ucsd.edu/gupta/) at [MESL](http://mesl.ucsd.edu/). I obtained my bachelor degree in Electrical and Computer Engineering from University of Michigan-Shanghai Jiaotong University Joint Institute ([UM-SJTU JI](https://www.ji.sjtu.edu.cn/)).',
-    'My research interest spans widely, including smart building (IoT), operating system, security and privacy, and applied cryptography. I would like to explore the possibilities for people to embrace the utility and productivity of data-driven services and smart hardware without being worried about ubiquitous surveillance, privacy leakage, or data breaches. I also want to contribute to the mitigation of massive surveillance and privacy disruption.',
-    // 'For example, in the context of the future IoT world, a stable and solid operating system to bridge the "pervasive" smart device/sensor network and normal users, researchers and policy designers on top of them will be a vital need for productivity and efficiency.  However, it must also be noted that security and privacy around this giant operating system will be of more importance than ever because attackers may have the possibility to perform attacks to people through smart devices directly and monitor real-time daily info of anyone from every single corner of life. Cryptography techniques like FHE, ZKP, MPC should be involved in this operating system to play as a solid shield to protect people from the above horrible potential attacks/breaches. I am very interested in building such a system.',
+    'I\'m a PhD candidate at [MESL](http://mesl.ucsd.edu/) of UCSD CSE, advised by [Rajesh K. Gupta](http://mesl.ucsd.edu/gupta/) and [Earlence Fernandes](http://www.earlence.com/). I obtained my bachelor degree in Electrical and Computer Engineering from University of Michigan-Shanghai Jiaotong University Joint Institute ([UM-SJTU JI](https://www.ji.sjtu.edu.cn/)).',
+    'My research interest spans widely, including CPS-IoT (smart buildings in particular), security, privacy, and applied cryptography. I missioned myself to help the general public embrace the utility and productivity of evolving technologies such as AI, smart hardware, etc. **without** being worried about various security, privacy, and safety issues including but not limited to ubiquitous surveillance, personal info leakage, and data misusage. ',
   ],
   avatar: 'avatar.png',
   professions: [
-    'Graduate Student',
+    'PhD Student',
   ],
   tocMaxDepth: 2,
   excerptMaxLength: 500,
@@ -66,7 +65,7 @@ module.exports = {
       icon: 'university',
       title: 'Bachelor in Electrical and Computer Engineering',
       location: 'University of Michigan-Shanghai Jiaotong University Joint Institute (UM-SJTU JI)',
-    }
+    },
   ],
   interests: [
     {
@@ -80,9 +79,21 @@ module.exports = {
       title: 'Cryptography',
     }, {
       icon: 'city',
-      title: 'IoT / Smart Buildings',
+      title: 'CPS-IoT / Smart Buildings',
     }],
   experience: [
+    {
+      title: 'Work',
+      position: 'left',
+      data: [
+        {
+          date: 'Jun 2022 - Sep 2022',
+          title: 'R&D Intern at Synopsys',
+          location: 'Remote',
+          description: 'Developed a verification tool (NDA). Patent in progress.',
+        },
+      ],
+    },
     {
       title: 'Work',
       position: 'left',
@@ -146,9 +157,14 @@ module.exports = {
       position: 'left',
       data: [
         {
+          date: 'Mar - May 2023/2022',
+          title: 'UCSD CSE PhD Visit Day and DEI Fellowship Committee',
+          location: 'San Diego',
+        },
+        {
           date: 'Sep 2020 - Present',
           title: 'USENIX Security \'21 [Artifact Evaluation Committee](https://www.usenix.org/conference/usenixsecurity21/call-for-artifacts)',
-          location: 'Online',
+          location: 'Remote',
         }, {
           date: 'Sep 2017 - Aug 2019',
           title: 'President of SSTIA at UM-SJTU JI',
@@ -178,7 +194,7 @@ module.exports = {
       date: 'Nov. 2018',
       title: 'SJTU Excellence Scholarship (1%)',
       // location: 'UM-SJTU JI',
-    }
+    },
   ],
   tagColors: [
     'magenta', 'red', 'volcano', 'orange', 'gold',
