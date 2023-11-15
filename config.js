@@ -30,26 +30,23 @@ module.exports = {
     tags: 'tags',
     research: 'research',
   },
-  social: {
-    github: 'https://github.com/reapor-yurnero',
-    // facebook: 'https://www.facebook.com/rolwin.monteiro',
-    // twitter: 'https://twitter.com/rolwin100',
-    // instagram: 'https://www.instagram.com/reevan100/',
-    // rss: '/rss.xml',
-  },
-  wakatime: {
-    username: 'tcimba',
-    activity: '7add4047-08f9-4da8-b649-aa114503678f',
-    language: '460a84ab-722a-4b80-b896-cabaa13ad7eb',
-    editor: 'd851639a-28d8-4884-949f-d338a858f7e9',
-    os: 'caf7d0d1-8fd2-4595-a991-363c8583fea9',
-  },
+  social: [{
+    url: 'https://github.com/reapor-yurnero',
+    icon: ['fab', 'github'],
+  }],
+  // wakatime: {
+  //   username: 'tcimba',
+  //   activity: '7add4047-08f9-4da8-b649-aa114503678f',
+  //   language: '460a84ab-722a-4b80-b896-cabaa13ad7eb',
+  //   editor: 'd851639a-28d8-4884-949f-d338a858f7e9',
+  //   os: 'caf7d0d1-8fd2-4595-a991-363c8583fea9',
+  // },
   contactFormUrl: process.env.CONTACT_FORM_ENDPOINT
     || 'https://getform.io/f/09a3066f-c638-40db-ad59-05e4ed71e451',
   googleAnalyticTrackingId: process.env.GA_TRACKING_ID || 'G-GG4M2NM9JM',
   education: [
     {
-      data: 'Jul 2021 - Present',
+      date: 'Jul 2021 - Present',
       icon: 'graduation-cap',
       title: 'PhD Student in Computer Science',
       location: 'University of California, San Diego (UCSD)',
