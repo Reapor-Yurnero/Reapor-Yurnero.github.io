@@ -9,6 +9,5 @@ date: 2020-11-12
 path: "posts/news-note"
 excerpt: An attemp on using Microsoft SEAL.
 # selected: true
-cover: "./preview.png"
 password: test
 ---
