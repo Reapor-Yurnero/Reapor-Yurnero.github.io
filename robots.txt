@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
-Sitemap: https://xhfu.me/sitemap.xml
+Sitemap: https://xhfu.me/sitemap-index.xml
 Host: https://xhfu.me
