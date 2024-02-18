@@ -12,6 +12,8 @@ excerpt: In this project, we are aiming to create a Building Operating System (B
 selected: true
 cover: "./preview.png"
 links:
+  - name: "ICCPS24 Paper"
+    url: "waitingproceeding"
   - name: "BuildSys20 Poster"
     url: "https://dl.acm.org/doi/10.1145/3408308.3431113"
   - name: "Repo (public)"
@@ -20,7 +22,7 @@ links:
     url: "https://dl.acm.org/doi/10.1145/3600100.3623740"
   - name: "RLEM22 Paper (B2RL)"
     url: "https://dl.acm.org/doi/abs/10.1145/3563357.3566164"
-priority: -10
+priority: -20
 ---
 
 ## Introduction

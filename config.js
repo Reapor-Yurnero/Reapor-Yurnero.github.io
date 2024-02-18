@@ -107,6 +107,11 @@ module.exports = {
       position: 'right',
       data: [
         {
+          date: 'Jan 2022 - Apr 2022',
+          title: 'Teaching Assistant of [CSE120 Intro to Operating Systems](https://cseweb.ucsd.edu//classes/wi22/cse120-a/) (undergrad upper level)',
+          location: 'UCSD',
+          description: 'Worked with Prof. [Joe Pasquale](https://cseweb.ucsd.edu/~pasquale/) remotely. Hosted a lot of office hours (>10h/week) and helped a lot of students:-)',
+        }, {
           date: 'Apr 2020 - Jun 2020',
           title: 'Teaching Assistant of [CSE127 Computer Security](https://cseweb.ucsd.edu/classes/sp20/cse127-a/index.html) (undergrad upper level)',
           location: 'UCSD',
