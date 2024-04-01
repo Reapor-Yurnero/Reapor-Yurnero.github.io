@@ -181,23 +181,7 @@ module.exports = {
       ],
     },
   ],
-  awards: [
-    {
-      date: 'Sep. 2018',
-      title: 'China National Scholarship (2%)',
-      // location: 'UM-SJTU JI',
-    },
-    {
-      date: 'Nov. 2018',
-      title: 'John Wu & Jane Sun Merit Scholarship (5 out of 370)',
-      // location: 'UM-SJTU JI',
-    },
-    {
-      date: 'Nov. 2018',
-      title: 'SJTU Excellence Scholarship (1%)',
-      // location: 'UM-SJTU JI',
-    },
-  ],
+  awards: [],
   tagColors: [
     'magenta', 'red', 'volcano', 'orange', 'gold',
     'lime', 'green', 'cyan', 'blue', 'geekblue', 'purple',
