@@ -31,10 +31,16 @@ module.exports = {
     tags: 'tags',
     research: 'research',
   },
-  social: [{
-    url: 'https://github.com/reapor-yurnero',
-    icon: ['fab', 'github'],
-  }],
+  social: [
+    {
+      url: 'https://github.com/reapor-yurnero',
+      icon: ['fab', 'github'],
+    },
+    {
+      url: 'https://scholar.google.com/citations?user=1eNRT-UAAAAJ&hl=en',
+      icon: ['fab', 'google-scholar'],
+    }
+          ],
   // wakatime: {
   //   username: 'tcimba',
   //   activity: '7add4047-08f9-4da8-b649-aa114503678f',
