@@ -8,7 +8,7 @@ date: Oct 2019 - Present
 authors:
   - name: "With Jason Koh, Dezhi Hong, Rajesh K. Gupta, and Gabe Fierro."
 path: "research/brick_bos"
-excerpt: In this project, we are aiming to create a Building Operating System (BOS) providing an interface between the underlying building hardware (e.g. HVAC system, light, sensor) and users (e.g. developers, building managers, residents). With this interface, developers can create applications to make the life of building managers and residents easier. Paper undersubmission to ICCPS 2024.
+excerpt: The recent advancement in Cyber Physical Systems (CPS) and the Artificial Intelligence of Things (AIOT) has brought significant productivity and utility enhancement across all walks of life. However, safety and security concerns and usability challenges have prohibited the wide adoption of AI-powered smart "things" in large-scale real-world systems. My research aims to close this gap by enabling secure and safe interaction with Cyber-Physical Systems in a user-friendly manner. Smart commercial buildings, typical examples of CPS with numerous, multi-tenant, distributed, and interconnected IoT devices, are my main testbed. 
 selected: true
 cover: "./preview.png"
 links:
@@ -25,25 +25,26 @@ links:
 priority: -20
 ---
 
-## Introduction
+## Safe, Secure and Usable Building Operating Systems. 
+Building operating systems (BOS), similar to classical OS, provide essential services to applications running on commercial buildings. The current state-of-the-art requires applications to be *trusted* and *carefully* monitored due to a lack of authorization, access control, and execution isolation mechanisms that could handle the complexity and scale of modern buildings in a *usable* manner.  To address this, we propose a new building operating system abstraction, that incorporates a structured semantic representation of the building to enable our novel dynamic and expressive access control and resource isolation mechanisms. Our design significantly decreases the manual effort required to deploy building applications safely and securely. We plan to explore arbitration mechanisms which are also essential in shared resource isolations.
 
-Building Operating System (BOS), just as the traditional operating systems for computers and mobiles, provides an interface between the underlying hardware (e.g. HVAC system, lights, sensors) and users (e.g. developers, building managers, residents). With this interface, developers can create applications so that building managers can use these applications to facilitate their work and residents can control their surrounding climate, electrical appliances smartly and conveniently. On top of [Brick Schema](https://brickschema.org/), we are building such a fully functional BOS composed of timeseries database, brick database, authorization, and so on, which is called Brick Server and its extended version Playground.
+[ICCPS24 Paper](./24ICCPS_SBOS.pdf), [code](https://gitlab.com/mesl/brickserver/brick-server-playground)
 
-Brick Server / Playground is
+## Data-driven Health-Aware Building Control 
+Traditional building control has focused on balancing energy efficiency and thermal comfort. Under the background of the global pandemic, we propose indoor breathing health (virus transmission rate) as one additional factor to consider. We explore two directions to address this new trade-off triangle. First, we attempt to model the dynamics of airflow, thermal, and air quality using Partial Differential Equations (PDE) based on the state of the indoor environment including temperature, CO2 density, airflow from the ventilation source, etc to optimize HVAC control actions (paper under review). Second, we explore data-driven methods such as offline reinforced learning methods that utilize historical data of the building to guide future operations (work in progress). To enable data-driven methods and benefit the general CPS community, we have been and will keep actively collecting and maintaining relevant sensing datasets. In this process, we find that more affordable sensors usually suffer from low stability. We use physics-informed machine learning models to denoise unstable sensors and therefore one may replace high-end sensors with less costly counterparts in the deployment. 
 
-- a minimal but fully functional Building Operating System (BOS),
-- an interface for Brick applications,
-- an emulator of a building for Brick applications development,
-- a demonstration of general methods to integrate your system with Brick, and
-- a testbed for new functions in Brick.
+[Buildsys20 Short](https://doi.org/10.1145/3408308.3431113),
+[BuildSys23 Paper (BEAR Dataset)](https://dl.acm.org/doi/10.1145/3600100.3623740),
+[RLEM22 Paper (B2RL Dataset)](https://dl.acm.org/doi/abs/10.1145/3563357.3566164),
+[Sensys 23 Paper (PILOT)](https://xiyuanzh.github.io/assets/publications/PILOT.pdf)
 
+## User-friendly Building Control Interaction 
+The interaction that building managers must make to control or debug a building has long been a hassle. We find three major pain points:
 
-## Ongoing Work
+- the inconvenience of locating the hardware control point of interest due to the complexity and scale of buildings
+- the lack of usable mechanisms to record on-site inspection results with spatial and temporal metadata;
+- the redundant efforts involved in making series of control operations with minor differences.
 
-Although this project is in the context of Smart Building, many problems that span across a wide range of areas are of our particular interest. 
-1. How to do authorization and authentication properly in this complex multi-layer privilege model? (OS)
-2. How to scale well to fit e.g. a campus, tens of buildings, 10k data points, thousands of users? (Distributed System)
-3. How to guarantee the security and privacy of these sensitive data? (Security, Privacy and Cryptography)
-4. How to facilitate our platform to help control and monitor the risk of COVID19 spread caused by indoor gatherings? (Smart Building) See our [BuildSys20 Poster](buildsys20postersdemos-final8.pdf) for more details.
+To address the first two issues, we utilize Mixed Reality (MR) techniques and create a digital twin of the building and building hardware connected to the BMS~\cite{BuildingMR}. Users can find and inspect points of interest simply by interacting with the MR scene. We also build a companion handheld sensing device that reports sensing data with real-time temporal and spatial info to the MR scene which enables replay of prior inspections at ease. For the last issue, we plan to explore the incorporation of LLMs into the building control interaction. We envision that CPS operators will use natural language to describe the desired operations seamlessly and LLMs should interpret and execute the operations accordingly.
 
-
+[Buildsys23 Demo (Building MR)](https://doi.org/10.1145/3600100.3626258)
