@@ -38,7 +38,7 @@ module.exports = {
     },
     {
       url: 'https://scholar.google.com/citations?user=1eNRT-UAAAAJ&hl=en',
-      icon: ['ai', 'google-scholar'],
+      icon: ['fab', 'google-scholar'],
     }
           ],
   // wakatime: {
