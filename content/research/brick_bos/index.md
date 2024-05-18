@@ -1,10 +1,9 @@
 ---
-title: "Brick & Building Operating System"
+title: "Smart Building and Sensing"
 tags:
   - "Smart Building"
   - "Operating System"
 date: Oct 2019 - Present
-# venue: DOTA2
 authors:
   - name: "With Jason Koh, Dezhi Hong, Rajesh K. Gupta, and Gabe Fierro."
 path: "research/brick_bos"
@@ -22,6 +21,8 @@ links:
     url: "https://dl.acm.org/doi/10.1145/3600100.3623740"
   - name: "RLEM22 Paper (B2RL)"
     url: "https://dl.acm.org/doi/abs/10.1145/3563357.3566164"
+  - name: "Sensys23 Paper (PILOT)"
+    url: "https://xiyuanzh.github.io/assets/publications/PILOT.pdf"
 priority: -20
 ---
 
@@ -34,8 +35,11 @@ Building operating systems (BOS), similar to classical OS, provide essential ser
 Traditional building control has focused on balancing energy efficiency and thermal comfort. Under the background of the global pandemic, we propose indoor breathing health (virus transmission rate) as one additional factor to consider. We explore two directions to address this new trade-off triangle. First, we attempt to model the dynamics of airflow, thermal, and air quality using Partial Differential Equations (PDE) based on the state of the indoor environment including temperature, CO2 density, airflow from the ventilation source, etc to optimize HVAC control actions (paper under review). Second, we explore data-driven methods such as offline reinforced learning methods that utilize historical data of the building to guide future operations (work in progress). To enable data-driven methods and benefit the general CPS community, we have been and will keep actively collecting and maintaining relevant sensing datasets. In this process, we find that more affordable sensors usually suffer from low stability. We use physics-informed machine learning models to denoise unstable sensors and therefore one may replace high-end sensors with less costly counterparts in the deployment. 
 
 [Buildsys20 Short](https://doi.org/10.1145/3408308.3431113),
-[BuildSys23 Paper (BEAR Dataset)](https://dl.acm.org/doi/10.1145/3600100.3623740),
+
+[BuildSys23 Paper (BEAR Dataset)](https://dl.acm.org/doi/10.1145/3600100.3623740), [Dataset](https://ucsdsmartbuilding.github.io/DATA)
+
 [RLEM22 Paper (B2RL Dataset)](https://dl.acm.org/doi/abs/10.1145/3563357.3566164),
+
 [Sensys 23 Paper (PILOT)](https://xiyuanzh.github.io/assets/publications/PILOT.pdf)
 
 ## User-friendly Building Control Interaction 
