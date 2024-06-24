@@ -11,7 +11,7 @@ excerpt: The recent advancement in Cyber Physical Systems (CPS) and the Artifici
 selected: true
 cover: "./preview.png"
 links:
-  - name: "ICCPS24 Paper"
+  - name: "ICCPS24 Paper (Best Paper Nomination)"
     file: "./24ICCPS_SBOS.pdf"
   - name: "BuildSys20 Poster"
     url: "https://dl.acm.org/doi/10.1145/3408308.3431113"
@@ -29,7 +29,7 @@ priority: -20
 ## Safe, Secure and Usable Building Operating Systems. 
 Building operating systems (BOS), similar to classical OS, provide essential services to applications running on commercial buildings. The current state-of-the-art requires applications to be *trusted* and *carefully* monitored due to a lack of authorization, access control, and execution isolation mechanisms that could handle the complexity and scale of modern buildings in a *usable* manner.  To address this, we propose a new building operating system abstraction, that incorporates a structured semantic representation of the building to enable our novel dynamic and expressive access control and resource isolation mechanisms. Our design significantly decreases the manual effort required to deploy building applications safely and securely. We plan to explore arbitration mechanisms which are also essential in shared resource isolations.
 
-[ICCPS24 Paper](./24ICCPS_SBOS.pdf), [code](https://gitlab.com/mesl/brickserver/brick-server-playground)
+[ICCPS24 Paper (Best Paper Nomination)](./24ICCPS_SBOS.pdf), [code](https://gitlab.com/mesl/brickserver/brick-server-playground)
 
 ## Data-driven Health-Aware Building Control 
 Traditional building control has focused on balancing energy efficiency and thermal comfort. Under the background of the global pandemic, we propose indoor breathing health (virus transmission rate) as one additional factor to consider. We explore two directions to address this new trade-off triangle. First, we attempt to model the dynamics of airflow, thermal, and air quality using Partial Differential Equations (PDE) based on the state of the indoor environment including temperature, CO2 density, airflow from the ventilation source, etc to optimize HVAC control actions (paper under review). Second, we explore data-driven methods such as offline reinforced learning methods that utilize historical data of the building to guide future operations (work in progress). To enable data-driven methods and benefit the general CPS community, we have been and will keep actively collecting and maintaining relevant sensing datasets. In this process, we find that more affordable sensors usually suffer from low stability. We use physics-informed machine learning models to denoise unstable sensors and therefore one may replace high-end sensors with less costly counterparts in the deployment. 
