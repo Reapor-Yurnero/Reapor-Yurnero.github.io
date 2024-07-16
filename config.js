@@ -8,7 +8,7 @@ module.exports = {
   introduction: [
     'I\'m a PhD candidate at [MESL](http://mesl.ucsd.edu/) of UCSD CSE, advised by [Rajesh K. Gupta](http://mesl.ucsd.edu/gupta/) and [Earlence Fernandes](http://www.earlence.com/). I obtained my bachelor degree in Electrical and Computer Engineering from University of Michigan-Shanghai Jiaotong University Joint Institute ([UM-SJTU JI](https://www.ji.sjtu.edu.cn/)).',
     'My research interest spans widely, including CPS-IoT (smart buildings in particular), security, privacy, and applied cryptography. I missioned myself to help the general public embrace the utility and productivity of evolving technologies such as AI, smart hardware, etc. **without** being worried about various security, privacy, and safety issues including but not limited to ubiquitous surveillance, personal info leakage, and data misusage. ',
-    "**I will be looking for full time job opportunities for 2025 summer. Feel free to reach out if you find my work interesting!**",
+    "**News: Our recent work [Playground](https://ieeexplore.ieee.org/abstract/document/10571633) was nominated for the best paper award at [ICCPS24](https://iccps.acm.org/2024/)!**",
   ],
   avatar: 'avatar.png',
   professions: [
