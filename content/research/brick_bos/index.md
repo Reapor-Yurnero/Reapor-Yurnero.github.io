@@ -12,7 +12,7 @@ selected: true
 cover: "./preview.png"
 links:
   - name: "ICCPS24 Paper (Best Paper Nomination)"
-    file: "./24ICCPS_SBOS.pdf"
+    url: "https://ieeexplore.ieee.org/abstract/document/10571633"
   - name: "BuildSys20 Poster"
     url: "https://dl.acm.org/doi/10.1145/3408308.3431113"
   - name: "Repo (public)"
